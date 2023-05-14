@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*, *::before, *::after, body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  background-color: none;
+  border: none;
+  font-family: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: local("Recoleta Regular"), local("Recoleta-Regular"), url("../../fonts/Recoleta/Recoleta-Regular.woff2") format("woff2"), url("../../fonts/Recoleta/Recoleta-Regular.woff") format("woff"), url("../../fonts/Recoleta/Recoleta-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+body {
+  background-color: #212121;
+  font-family: "Poppins";
+  color: #fff;
+}

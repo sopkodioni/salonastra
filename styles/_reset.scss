@@ -1,0 +1,20 @@
+*, *::before, *::after, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+  background-color: none;
+  border: none;
+  font-family: inherit;
+}
+ 
+li{
+  list-style: none;
+}
+ 
+a{
+   text-decoration: none;
+   color: inherit;
+}

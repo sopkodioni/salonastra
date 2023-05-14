@@ -1,0 +1,13 @@
+// Poppins (Regular)
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// Recoleta
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta Regular'), local('Recoleta-Regular'),
+        url('../../fonts/Recoleta/Recoleta-Regular.woff2') format('woff2'),
+        url('../../fonts/Recoleta/Recoleta-Regular.woff') format('woff'),
+        url('../../fonts/Recoleta/Recoleta-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
