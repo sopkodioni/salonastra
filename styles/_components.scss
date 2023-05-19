@@ -1,0 +1,79 @@
+// ================== Контейнер, ограничивающий по ширине контент ================== //
+.container{
+    max-width: 1590px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+// ================== Заголовок (юзается в секциях, начиная после главного экрана ================== //
+.title{
+    // Сам текст заголовка
+    &__text{
+        font-family: $secondaryFFLight;
+        font-size: 4.375rem;
+        line-height: 4.812rem;
+    }
+    
+    // Подтекст под заголовком
+    &__subtext{
+        line-height: calc(24px / 16px);
+    }
+
+    // Цвет вторая кнопка с залитым фоном
+    &--secondary{
+        color: $leadColor;
+    }
+}
+
+
+// ================== Кнопка ================== //
+.btn{
+    font-size: 1.25rem;
+    line-height: 1.375;
+    color: $whiteColor;
+    padding: 17px 54px;
+    border: 1px solid $whiteColor;
+    border-radius: 50px;
+    transition: background-color $standartMs ease-in-out, color $standartMs ease-in-out;
+    display: inline-flex;
+    align-items: center;
+
+    // Состояние при наведении
+    &:hover{
+        background-color: $whiteColor;
+        color: $primaryColor;
+    }
+
+    // Вторая кнопка, с залитым фоном
+    &--secondary{
+        border-color: $secondaryColor;
+        background-color: $secondaryColor;
+        color: $leadColor;
+
+        // Состояние при наведении
+        &:hover{
+            background-color: transparent;
+            color: $secondaryColor;
+        }
+    }
+
+    // Кнопка, которая содержит икноку 
+    &--haveicon{
+        svg{
+            width: 32px;
+            height: 32px;
+            margin-right: 1.25rem;
+            path{
+                fill: $leadColor;
+                transition: fill $standartMs;
+            }
+        }
+
+        // Состоянии при наведении для SVG иконки
+        &:hover{
+            svg path{
+                fill: $secondaryColor;
+            }
+        }
+    }
+}

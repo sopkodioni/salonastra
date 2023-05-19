@@ -1,10 +1,11 @@
 html{
     font-size: 16px;
     line-height: $lineHeight;
+    font-weight: 400;
 }
 
 body {
     background-color: $primaryColor;
-    font-family: $fontFamily;
+    font-family: $mainFF;
     color: $whiteColor; 
 }
