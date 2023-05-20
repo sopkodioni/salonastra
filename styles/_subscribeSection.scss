@@ -1,0 +1,57 @@
+// =========================== SUBSCRIBE =========================== //
+
+.subscribe{
+    border-bottom: 1px solid $grayColor;
+    background-image: url(../../salonastra/img/elements/blur.svg), url(../../salonastra/img/elements/lowerBlur.svg);
+    background-position: center top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    &__container{
+        padding-top: 9.8125rem;
+        padding-bottom: 9.8125rem;
+    }
+   &__content{
+    padding-top: 7.125rem;
+    padding-left: 16.375rem;
+    padding-right: 16.375rem;
+    padding-bottom: 15rem;
+    background-color: $secondaryColor;
+    position: relative;
+   }
+   &__img{
+    left: 5%;
+    position: absolute;
+    top: 10%;
+   }
+   &__text{
+    color: $leadColor;
+   }
+   border-bottom: 1px;
+   border-color: $grayColor;
+}
+.registr{
+    position: relative;
+    top: 3.875rem;
+    width: 1014px;
+    padding-top:1.6rem;
+    padding-bottom: 1.6rem;
+    background-color: $whiteColor;
+    border-radius: 35px;
+    &__btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top:1.5rem;
+        padding-bottom:1.5rem ;
+        padding-bottom: 1.5rem;
+        padding-left: 4.1875rem;
+        padding-right: 4.25rem;
+        background-color: $blackColor;
+    }
+    &__field{
+        background: transparent;
+        border: none;
+        
+        padding-left: 1.875rem;
+        outline: none;
+    }
+}
