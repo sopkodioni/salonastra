@@ -1,4 +1,82 @@
 // =========================== HEADER =========================== //
 .header{
-    padding: 50px 0;
+    padding: 20px 0;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__logo{
+        flex-grow: 1;
+
+        @media screen and (max-width: 1260px){
+            flex-grow: 0;
+        }
+    }
+
+    &__nav{
+        margin-right: 15.625rem;
+
+        @media screen and (max-width: 1260px){
+            margin-right: 0;
+        }
+    }
+}
+
+
+.headerNav{
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        overflow: hidden;
+        
+        &:not(:last-child){
+            margin-right: 6.0625rem;
+        }
+
+        position: relative;
+        &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background-color: $whiteColor;
+            transform: translateX(-101%);
+            transition: transform $standartMs ease-in-out;
+        }
+
+        &:hover{
+            &::before{
+                transform: translateX(0%);
+            }
+        }
+    }
+
+    @media screen and (max-width: 950px){
+        display: none;
+    }
+}
+
+.burger-btn{
+    width: 50px;
+    cursor: pointer;
+    display: none;
+
+    &__line{
+        height: 2px;
+        background-color: $whiteColor;
+        &:not(:last-child){
+            margin-bottom: 10px;
+        }
+    }
+
+    @media screen and (max-width: 950px){
+        display: block;
+    }
 }
