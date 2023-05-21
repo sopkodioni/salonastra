@@ -1,1 +1,148 @@
 // =========================== OFFERS MONTH SECTION =========================== //
+.oferteleLunii{
+    background-color: $secondaryColor;
+
+    // ========= контейнер ========= //
+    &__container{
+        padding: 6.2rem 15px 7rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        @media screen and (max-width: 1800px) {
+            padding: 6.2rem 6rem 7rem;
+        }
+    }
+
+    
+    &__title{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+
+    // ========= кнопка  ========= //
+    &__btn{
+        border-color: $primaryColor;
+        color: $primaryColor;
+        width: 20rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        &:hover{
+            background-color:  $primaryColor;
+            color: $whiteColor;
+        }
+    }
+
+    &__offers{
+        margin-bottom: 4rem;
+    }
+}
+
+// ========= заголовок  ========= //
+.title{
+    &__primaryColor{
+        color: $primaryColor;
+        margin-bottom: 1rem;
+    }
+
+    &__brown{
+        color: #7D5620;
+    }
+}
+
+// ========= часть c предложениями и их описаниями  ========= //
+.oferteleLuniiOffers{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+
+    &__arrowLeft{
+        position: absolute;
+        left: -5rem;
+        top: 16rem;
+        cursor: pointer;
+        @media screen and (max-width: 1800px) {
+            left: -3rem;
+            top: 13rem;
+        }
+    }
+
+    &__arrowRight{
+        position: absolute;
+        right: -5rem;
+        top: 16rem;
+        cursor: pointer;
+        @media screen and (max-width: 1800px) {
+            right: -3rem;
+            top: 13rem;
+        }
+    }
+
+    &__item{
+        width: 29.56rem;
+        margin-bottom: 1rem;
+        @media screen and (max-width: 1800px) {
+            width: 25rem;
+        }
+    }
+    
+    &__serviceName{
+        font-size: 2.8rem;
+        line-height: 3rem;
+        color: $primaryColor;
+        margin-bottom: 0.5rem;
+        font-family: "Recoleta Light";
+    }
+
+    &__serviceDescr{
+        color: #7D5620;
+        margin-bottom: 0.4rem;
+        font-family: "Recoleta";
+        size: 1rem;
+        line-height: 1rem;
+    }
+
+    &__servicePrice{
+        color: $primaryColor;
+        font-family: "Recoleta";
+        size: 1rem;
+        line-height: 1rem;
+    }
+
+    &__discount{
+        display: flex;
+    }
+
+    &__servicePrice-previous{
+        color: $primaryColor;
+        text-decoration: line-through;
+        padding-right: 0.8rem;
+        font-family: "Recoleta";
+        size: 1rem;
+        line-height: 1rem;
+    }
+
+    &__button{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__offersImg {
+        margin-bottom: 1rem;
+        @media screen and (max-width: 1800px) {
+              width: 25rem;
+              height: 17rem;
+          }
+    
+    }
+}
+
