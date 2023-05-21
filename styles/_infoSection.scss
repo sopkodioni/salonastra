@@ -11,11 +11,11 @@
         position: relative;
     }
 
-    &__container--one{
+    &__content--one{
         margin-right: 3rem;
     }
 
-    &__container--two{
+    &__content--two{
         margin-left: 3rem;
     }
 
@@ -59,36 +59,40 @@
             position: absolute;
             bottom: 50px;
             right: -160px;
+            pointer-events: none;
         }
 
         &--star{
             position: absolute;
             bottom: -170px;
             left: -70px;
+            pointer-events: none;
         }
 
         &--ellipse{
             
-            &--one{
+            &one{
                 opacity: 75%;
                 filter: blur(5rem);
                 position: absolute;
                 left: -100px;
                 bottom: -300px;
-                z-index: 0;
+                z-index: -1;
+                pointer-events: none;
             }
 
-            &--two{
+            &two{
                 opacity: 75%;
                 filter: blur(5rem);
                 position: absolute;
                 left: -300px;
                 bottom: -00px;
-                z-index: 0;
+                z-index: -1;
+                pointer-events: none;
 
             }
 
-            &--three{
+            &three{
                 img{
                     width: 600px;
                 }
@@ -98,6 +102,8 @@
                 position: absolute;
                 right: 0px;
                 top: 100px;
+                z-index: -1;
+                pointer-events: none;
             }
 
         }
