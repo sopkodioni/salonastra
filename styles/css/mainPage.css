@@ -87,3 +87,118 @@
     display: block;
   }
 }
+
+.main {
+  overflow: hidden;
+  position: relative;
+}
+.main__top {
+  max-width: 36.375rem;
+}
+.main__container {
+  padding: 5.629rem 15px;
+  position: relative;
+}
+.main__title {
+  font-size: 5.75rem;
+  line-height: 6.375rem;
+  font-family: "Recoleta Light";
+  color: #ecd8bd;
+  margin-bottom: 1.5rem;
+}
+.main__descr {
+  line-height: 1.125;
+  margin-bottom: 66px;
+}
+.main .certificate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .certificate__img {
+  margin-right: 1.875rem;
+}
+.main .certificate__title {
+  margin-bottom: 0.437rem;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+}
+.main .certificate__descr {
+  margin-bottom: 0.3rem;
+  color: #AFAFAF;
+  font-size: 0.937rem;
+}
+.main .certificate__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.625rem;
+  color: #ecd8bd;
+}
+.main .certificate__link img {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.main .certificate__link:hover img {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+.main__decorBlur {
+  position: absolute;
+  right: 0;
+  bottom: -25rem;
+  z-index: -1;
+}
+
+.privilege {
+  background-color: #ecd8bd;
+  padding: 2.625rem 0;
+}
+.privilege .container {
+  position: relative;
+}
+.privilege .container .contentMainImg {
+  position: absolute;
+  right: 0;
+  bottom: -2.625rem;
+}
+.privilege__item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.privilege__item:not(:last-child) {
+  margin-right: 6.25rem;
+}
+.privilege__item:first-child {
+  margin-left: 1.25rem;
+}
+.privilege__title {
+  font-family: "Recoleta Light";
+  line-height: 1.125rem;
+  color: #212121;
+}
+.privilege__icon {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 1rem;
+}
+.privilege__contentImg {
+  position: absolute;
+}
