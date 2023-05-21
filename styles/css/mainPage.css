@@ -18,9 +18,9 @@
   position: relative;
 }
 .subscribe__img {
-  left: 5%;
+  left: -5%;
   position: absolute;
-  top: 10%;
+  top: -10%;
 }
 .subscribe__text {
   color: #212121;
