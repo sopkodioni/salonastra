@@ -1,1 +1,99 @@
 // =========================== OFFERS MONTH SECTION =========================== //
+
+.oferteleLunii{
+    background-color: $secondaryColor;
+
+    &__container{
+        padding: 6.2rem 15px 9.3rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.oferteleLunii__title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.title{
+    &__primaryColor{
+        color: $primaryColor;
+    }
+
+    &__brown{
+        color: #7D5620;
+    }
+}
+
+
+.oferteleLuniiOffers{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 100%;
+    position: relative;
+
+    &__arrowLeft{
+        position: absolute;
+        left: -5rem;
+        top: 16rem;
+    }
+
+    &__arrowRight{
+        position: absolute;
+        right: -5rem;
+        top: 16rem;
+    }
+
+    &__first{
+        max-width: 29.56rem;
+    }
+    
+    &__second{
+        max-width: 29.56rem;
+    }
+
+    &__third{
+        max-width: 29.56rem;
+    }
+    
+
+    &__serviceName{
+        font-size: 2.8rem;
+        line-height: 3rem;
+        color: $primaryColor;
+        margin-bottom: 0.5rem;
+    }
+
+    &__serviceDescr{
+        color: #7D5620;
+        margin-bottom: 0.2rem;
+    }
+
+    &__servicePrice{
+        color: $primaryColor;
+
+    }
+
+    &__discount{
+        display: flex;
+    }
+
+    &__servicePrice-previous{
+        color: $primaryColor;
+        text-decoration: line-through;
+        padding-right: 0.8rem;
+    }
+
+}
+
+.oferteleLuniiOffers img{
+    margin-bottom: 1rem;
+}
