@@ -6,6 +6,37 @@
         display: flex;
         justify-content: space-between;
     }
+    &__contact{
+        display: flex;
+    }
+    &__first{
+        padding-top: 2rem;
+    }
+    &__title{
+        font-family: $mainFF;
+        font-size: 1.25rem;
+        line-height: 1.375rem;
+    }
+    &__second{
+        padding-top: 2rem;
+        padding-right: 5.625rem;
+    }
+    &__third{
+        padding-top: 2rem;
+    }
+    &__item{
+        color: $grayColor;
+        font-family: $mainFF;
+        font-size: 1.25rem;
+        line-height: 1.375rem;
+        padding-top: 0.5rem;
+    }
+    &__list{
+        padding-top: 1rem;
+    }
+    &__nav{
+        margin-right: 4.5rem;
+    }
 }
 .main{
     &__title{
@@ -32,32 +63,7 @@
         padding-left: 1.875rem;
     }
 }
-.contact{
-   &__page{
-    padding-right: 5rem;
-    font-family: $mainFF;
-    font-size: 1.25rem;
-    line-height: 1.375rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-   }
-   &__contacts{
-    padding-right: 18rem;
-    font-family: $mainFF;
-    font-size: 1.25rem;
-    line-height: 1.375rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-   }
-   &__program{
-    text-align: left;
-    font-family: $mainFF;
-    font-size: 1.25rem;
-    line-height: 1.375rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-   }
-}
+
 .div{
     padding: 1px;
     background-color: $grayColor;
@@ -74,11 +80,19 @@
         color: $grayColor;
     }
 }
-.contact-nav{
-   &__content{
-    font-family: $mainFF;
-    font-size: 1.25rem;
-    line-height: 1.375rem;
-    color: $grayColor;
-   } 
+.footerNav{
+    padding-right: 3rem;
+    padding-top: 1rem;
+    &__item{
+        overflow: hidden;
+        color: $grayColor;
+        font-family: $mainFF;
+        font-size: 1.25rem;
+        line-height: 1.375rem;
+        padding-top: 0.5rem;
+        
+    
+ 
+
+    }
 }
