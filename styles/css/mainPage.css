@@ -1,58 +1,55 @@
+.info {
+  margin-top: 7.5rem;
+}
 .info__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
 }
-.info__content--one {
-  margin-right: 3rem;
-}
 .info__content--two {
-  margin-left: 3rem;
+  margin-left: 6rem;
+  padding-top: 5.625rem;
 }
 .info__title {
-  margin-top: 209px;
   font-family: "Recoleta Regular";
-  line-height: 77px;
-  font-size: 48px;
+  line-height: 4.8125rem;
+  font-size: 3rem;
 }
 .info__subtitle {
-  margin-top: 24px;
+  margin-top: 1.5rem;
   font-size: 1rem;
-  width: 701px;
+  max-width: 43.75rem;
 }
 .info__btn {
-  margin-top: 38px;
+  margin-top: 2.375rem;
 }
 .info__btn a {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 .info__img--one {
   position: relative;
   z-index: 1;
 }
 .info__img--two {
-  margin-top: 118px;
+  margin-top: 7.375rem;
   position: relative;
   z-index: 1;
 }
 .info__effects--rays {
   position: absolute;
-  bottom: 50px;
-  right: -160px;
+  bottom: 3.125rem;
+  right: -10rem;
   pointer-events: none;
 }
 .info__effects--star {
   position: absolute;
-  bottom: -170px;
-  left: -70px;
+  bottom: -10.625rem;
+  left: -4.375rem;
   pointer-events: none;
 }
 .info__effects--ellipseone {
@@ -60,8 +57,8 @@
   -webkit-filter: blur(5rem);
           filter: blur(5rem);
   position: absolute;
-  left: -100px;
-  bottom: -300px;
+  left: -6.25rem;
+  bottom: -18.75rem;
   z-index: -1;
   pointer-events: none;
 }
@@ -70,7 +67,7 @@
   -webkit-filter: blur(5rem);
           filter: blur(5rem);
   position: absolute;
-  left: -300px;
+  left: -18.75rem;
   bottom: 0px;
   z-index: -1;
   pointer-events: none;
@@ -81,10 +78,10 @@
           filter: blur(5rem);
   position: absolute;
   right: 0px;
-  top: 100px;
+  top: 6.25rem;
   z-index: -1;
   pointer-events: none;
 }
 .info__effects--ellipsethree img {
-  width: 600px;
+  max-width: 37.5rem;
 }
