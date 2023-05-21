@@ -18,12 +18,15 @@
   position: relative;
 }
 .subscribe__img {
-  left: -5%;
+  left: -5rem;
   position: absolute;
-  top: -10%;
+  top: -3.78rem;
 }
 .subscribe__text {
   color: #212121;
+  font-family: "Recoleta Regular";
+  font-size: 4.375rem;
+  line-height: 5.375rem;
 }
 
 .registr {
@@ -51,6 +54,10 @@
   border: none;
   padding-left: 1.875rem;
   outline: none;
+  font-family: "Poppins";
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+  color: #212121;
 }
 
 .footer {
@@ -114,24 +121,24 @@
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-.contact__content {
+
+.div {
+  padding: 1px;
+  background-color: #9e9e9e;
+  margin-top: 8rem;
+}
+
+.footer-bottom__text {
+  text-align: center;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
   font-family: "Poppins";
   font-size: 1.25rem;
   line-height: 1.375rem;
   color: #9e9e9e;
 }
 
-.div {
-  padding: 1px;
-  background-color: #9e9e9e;
-  width: 100%;
-  margin-top: 8rem;
-}
-
-.bottom__text {
-  text-align: center;
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
+.contact-nav__content {
   font-family: "Poppins";
   font-size: 1.25rem;
   line-height: 1.375rem;

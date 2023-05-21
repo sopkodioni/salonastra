@@ -57,20 +57,13 @@
     padding-top: 3rem;
     padding-bottom: 2rem;
    }
-   &__content{
-    font-family: $mainFF;
-    font-size: 1.25rem;
-    line-height: 1.375rem;
-    color: $grayColor;
-   }
 }
 .div{
     padding: 1px;
     background-color: $grayColor;
-    width: 100%;
     margin-top: 8rem;
 }
-.bottom{
+.footer-bottom{
     &__text{
         text-align: center;
         padding-top: 2.25rem;
@@ -81,4 +74,11 @@
         color: $grayColor;
     }
 }
-
+.contact-nav{
+   &__content{
+    font-family: $mainFF;
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+    color: $grayColor;
+   } 
+}
