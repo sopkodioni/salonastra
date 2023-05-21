@@ -33,6 +33,14 @@
         height: 3rem;
         display: flex;
         justify-content: center;
+        &:hover{
+            background-color:  $primaryColor;
+            color: $whiteColor;
+        }
+    }
+
+    &__offers{
+        margin-bottom: 4rem;
     }
 }
 
@@ -56,8 +64,6 @@
     align-items: flex-start;
     width: 100%;
     position: relative;
-    margin-bottom: 4rem;
-    
 
     &__arrowLeft{
         position: absolute;
@@ -81,7 +87,7 @@
         }
     }
 
-    &__items{
+    &__item{
         width: 29.56rem;
         margin-bottom: 1rem;
         @media screen and (max-width: 1800px) {
@@ -129,13 +135,16 @@
         display: flex;
         justify-content: center;
     }
+
+    &__offersImg {
+        margin-bottom: 1rem;
+        @media screen and (max-width: 1800px) {
+              width: 25rem;
+              height: 17rem;
+          }
+    
+    }
 }
 
-.offersImg {
-    margin-bottom: 1rem;
-    @media screen and (max-width: 1800px) {
-          width: 25rem;
-          height: 17rem;
-      }
 
-}
+
