@@ -2,7 +2,7 @@
   background-color: #ecd8bd;
 }
 .oferteleLunii__container {
-  padding: 6.2rem 15px 9.3rem;
+  padding: 6.2rem 15px 7rem;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,7 +18,11 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
+@media screen and (max-width: 1800px) {
+  .oferteleLunii__container {
+    padding: 6.2rem 6rem 7rem;
+  }
+}
 .oferteleLunii__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,9 +39,22 @@
           align-items: center;
   margin-bottom: 4rem;
 }
+.oferteleLunii__btn {
+  border-color: #212121;
+  color: #212121;
+  width: 20rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 .title__primaryColor {
   color: #212121;
+  margin-bottom: 1rem;
 }
 .title__brown {
   color: #7D5620;
@@ -56,40 +73,62 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  min-width: 100%;
+  width: 100%;
   position: relative;
+  margin-bottom: 4rem;
 }
 .oferteleLuniiOffers__arrowLeft {
   position: absolute;
   left: -5rem;
   top: 16rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1800px) {
+  .oferteleLuniiOffers__arrowLeft {
+    left: -3rem;
+    top: 13rem;
+  }
 }
 .oferteleLuniiOffers__arrowRight {
   position: absolute;
   right: -5rem;
   top: 16rem;
+  cursor: pointer;
 }
-.oferteleLuniiOffers__first {
-  max-width: 29.56rem;
+@media screen and (max-width: 1800px) {
+  .oferteleLuniiOffers__arrowRight {
+    right: -3rem;
+    top: 13rem;
+  }
 }
-.oferteleLuniiOffers__second {
-  max-width: 29.56rem;
+.oferteleLuniiOffers__items {
+  width: 29.56rem;
+  margin-bottom: 1rem;
 }
-.oferteleLuniiOffers__third {
-  max-width: 29.56rem;
+@media screen and (max-width: 1800px) {
+  .oferteleLuniiOffers__items {
+    width: 25rem;
+  }
 }
 .oferteleLuniiOffers__serviceName {
   font-size: 2.8rem;
   line-height: 3rem;
   color: #212121;
   margin-bottom: 0.5rem;
+  font-family: "Recoleta Light";
 }
 .oferteleLuniiOffers__serviceDescr {
   color: #7D5620;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
+  font-family: "Recoleta";
+  size: 1rem;
+  line-height: 1rem;
 }
 .oferteleLuniiOffers__servicePrice {
   color: #212121;
+  font-family: "Recoleta";
+  size: 1rem;
+  line-height: 1rem;
 }
 .oferteleLuniiOffers__discount {
   display: -webkit-box;
@@ -100,8 +139,25 @@
   color: #212121;
   text-decoration: line-through;
   padding-right: 0.8rem;
+  font-family: "Recoleta";
+  size: 1rem;
+  line-height: 1rem;
+}
+.oferteleLuniiOffers__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.oferteleLuniiOffers img {
+.offersImg {
   margin-bottom: 1rem;
+}
+@media screen and (max-width: 1800px) {
+  .offersImg {
+    width: 25rem;
+    height: 17rem;
+  }
 }
