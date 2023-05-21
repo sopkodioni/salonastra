@@ -102,6 +102,12 @@
         &:first-child{
             margin-left: 1.25rem;
         }
+
+        &:hover{
+            .privilege__icon{
+                transform: translateY(-5px);
+            }
+        }
     }
 
     &__title{
@@ -114,6 +120,7 @@
         width: 54px;
         height: 54px;
         margin-bottom: 1rem;
+        transition: transform $standartMs ease-in-out;
     }
     
 

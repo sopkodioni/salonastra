@@ -189,6 +189,10 @@
 .privilege__item:first-child {
   margin-left: 1.25rem;
 }
+.privilege__item:hover .privilege__icon {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
 .privilege__title {
   font-family: "Recoleta Light";
   line-height: 1.125rem;
@@ -198,6 +202,10 @@
   width: 54px;
   height: 54px;
   margin-bottom: 1rem;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 .privilege__contentImg {
   position: absolute;
