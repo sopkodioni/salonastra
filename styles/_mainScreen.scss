@@ -1,1 +1,133 @@
-// =========================== MAIN SCREEN =========================== //
+// =========================== Главный экран =========================== //
+.main{
+    overflow: hidden;
+    // контентная, основная часть (заголовок) 
+    &__top{
+        max-width: 36.375rem;
+    }
+
+    &__container{
+        padding: 5.629rem 15px;
+        position: relative;
+    }
+
+    // заголовок главного экрана
+    &__title{
+        font-size: 5.75rem;
+        line-height: 6.375rem;
+        font-family: "Recoleta Light";
+        color: $secondaryColor;
+        margin-bottom: 1.5rem;
+    }
+
+    // описание главного экрана
+    &__descr{
+        line-height: 1.125;
+        margin-bottom: 66px;
+    }
+
+    // ссылка на получение сертификата в MAIN секции 
+    .certificate{
+        display: flex;
+        align-items: center;
+    
+        &__img{
+            margin-right: 1.875rem;
+        }
+    
+        &__title{
+            margin-bottom: .437rem;
+            font-size: 1.25rem;
+            line-height: 1.375rem;
+            font-weight: 300;
+        }
+    
+        &__descr{
+            margin-bottom: .3rem;
+            color: #AFAFAF;
+            font-size: 0.937rem;
+        }
+    
+        &__link{
+            display: flex;
+            align-items: center;
+            gap: .625rem;
+            color: $secondaryColor;
+    
+            img{
+                transition: transform $standartMs ease-in-out;
+            }
+    
+            &:hover{
+                img{
+                    transform: translateX(5px);
+                }
+            }
+        }
+    }
+
+    position: relative;
+    // декоративный элемент (брюр на фоне)
+    &__decorBlur{
+        position: absolute;
+        right: 0;
+        bottom: -25rem;
+        z-index: -1;
+    }
+}
+
+// ================== Блок с привелегиями ================== //
+.privilege{
+    background-color: $secondaryColor;
+    padding: 2.625rem 0;
+
+    .container{
+        position: relative;
+        .contentMainImg{
+            position: absolute;
+            right: 0;
+            bottom: -2.625rem;
+        }
+    }
+    
+    // елемент (сама привелегия) 
+    &__item{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        &:not(:last-child){
+            margin-right: 6.25rem;
+        }
+
+        &:first-child{
+            margin-left: 1.25rem;
+        }
+
+        &:hover{
+            .privilege__icon{
+                transform: translateY(-5px);
+            }
+        }
+    }
+
+    &__title{
+        font-family: 'Recoleta Light';
+        line-height: 1.125rem;
+        color: $primaryColor;
+    }
+
+    &__icon{
+        width: 54px;
+        height: 54px;
+        margin-bottom: 1rem;
+        transition: transform $standartMs ease-in-out;
+    }
+    
+
+
+
+    // Контентное изображение
+    &__contentImg{
+        position: absolute;
+    }
+}

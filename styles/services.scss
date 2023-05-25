@@ -7,3 +7,51 @@
 // services section style....
 
 @import './footer';
+
+// Файл обьявленых переменных
+@import './vars';
+
+// =========================== SERVICES page =========================== //
+@import './header';
+
+// services section style....
+
+@import './footer';
+
+.serviceCaption{
+    // ========= контейнер ========= //
+    &__container{
+        background-color: $secondaryColor;
+        display: flex;
+        justify-content: center;
+        padding: 3.125rem ;
+    }
+
+    &__title{
+        color: $leadColor;
+    }
+}
+
+.serviceBtn{
+    // ========= контейнер ========= //
+    &__container{
+        background-color: $secondaryColor;
+        display: flex;
+        justify-content: center;
+        padding: 4.75rem;
+    }
+
+    &__btn{
+        border-color: $primaryColor;
+        color: $primaryColor;
+        width: 22rem;
+        height: 5rem;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        &:hover{
+            background-color:  $primaryColor;
+            color: $whiteColor;
+        }
+    }
+}
