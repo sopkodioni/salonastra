@@ -55,3 +55,78 @@
         }
     }
 }
+.content{
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.0625rem solid rgba(236, 216, 189, 1);
+    }
+}
+.itemFirst{
+    &__title{
+        font-family: $secondaryFFReuflar;
+        font-weight: 400;
+        font-size: 2.58rem;
+        line-height: 2.850625rem;
+        color: rgba(236, 216, 189, 1);
+    }
+    &__body{
+        padding-left: 5.3125rem;
+        padding-top: 5.0625rem;
+        padding-bottom: 5.1875rem;
+    }
+    &__text{
+        padding-top: 0.5rem;
+        font-family: $mainFF;
+        font-weight: 400;
+        font-size: 1.875rem;
+        line-height: 2.634375rem;
+        padding-right: 5.25rem;
+    }
+    &__price{
+        padding-top: 1.9375rem;
+        font-family: $mainFF;
+        font-weight: 400;
+        font-size: 2.1875rem;
+        line-height: 3.073125rem;
+    }
+
+}
+.itemSecond{
+    &__title{
+        font-family: $secondaryFFReuflar;
+        font-weight: 400;
+        font-size: 2.58rem;
+        line-height: 2.850625rem;
+        color: rgba(236, 216, 189, 1);
+    }
+    &__body{
+        padding-top: 7.4375rem;
+        padding-left: 8.5625rem;
+        padding-bottom: 7.4375rem;
+    }
+    &__text{
+        padding-top: 1.75rem;
+        font-family: $mainFF;
+        font-weight: 400;
+        font-size: 1.875rem;
+        line-height: 2.634375rem;
+        padding-right: 4.3125rem;
+    }
+    &__price{
+        padding-top: 1.9375rem;
+        font-family: $mainFF;
+        font-weight: 400;
+        font-size: 2.1875rem;
+        line-height: 3.073125rem;
+    }
+}
+.contentPrice{
+    &__first{
+        text-decoration: none;
+        color: rgba(236, 216, 189, 1);
+    }
+    &__second{
+       text-decoration: underline 0.1rem; 
+    }
+}
