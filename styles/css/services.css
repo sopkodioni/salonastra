@@ -192,7 +192,6 @@
   font-size: 1.25rem;
   line-height: 1.375rem;
   padding-top: 0.5rem;
-<<<<<<< HEAD
 }
 
 .header {
@@ -258,6 +257,13 @@
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 .headerNav__item:hover::before {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+.headerNav__item--active {
+  cursor: default;
+}
+.headerNav__item--active::before {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
 }
@@ -425,6 +431,7 @@
   background-color: #212121;
   color: #fff;
 }
+
 .content__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,6 +514,3 @@
   -webkit-text-decoration: underline 0.1rem;
           text-decoration: underline 0.1rem;
 }
-=======
-}
->>>>>>> 1-denis

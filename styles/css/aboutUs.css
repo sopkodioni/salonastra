@@ -188,11 +188,6 @@
   background-color: #ECD8BD;
   border-radius: 50%;
 }
-.aboutUs__blicks {
-  position: absolute;
-  top: 0;
-  pointer-events: none;
-}
 
 .aboutUsFooter {
   padding-top: 7.87rem;
