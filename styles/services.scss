@@ -63,6 +63,9 @@
     }
 }
 .itemFirst{
+    &__img{
+        object-fit: cover;
+    }
     &__title{
         font-family: $secondaryFFReuflar;
         font-weight: 400;
@@ -93,6 +96,9 @@
 
 }
 .itemSecond{
+    &__img{
+        object-fit: cover;
+    }
     &__title{
         font-family: $secondaryFFReuflar;
         font-weight: 400;
