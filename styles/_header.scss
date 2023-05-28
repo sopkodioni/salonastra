@@ -56,6 +56,13 @@
                 transform: translateX(0%);
             }
         }
+
+        &--active{
+            cursor: default;
+            &::before{
+                transform: translateX(0%);
+            }
+        }
     }
 
     @media screen and (max-width: 950px){

@@ -64,6 +64,13 @@
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
 }
+.headerNav__item--active {
+  cursor: default;
+}
+.headerNav__item--active::before {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
 @media screen and (max-width: 950px) {
   .headerNav {
     display: none;
@@ -211,6 +218,7 @@
   position: absolute;
 }
 
+<<<<<<< HEAD
 .info {
   margin-top: 7.5rem;
 }
@@ -533,6 +541,8 @@
   width: 74%;
 }
 
+=======
+>>>>>>> 1-denis
 .footer {
   border-top: 1px solid #9e9e9e;
 }

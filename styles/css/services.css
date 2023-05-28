@@ -64,6 +64,13 @@
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
 }
+.headerNav__item--active {
+  cursor: default;
+}
+.headerNav__item--active::before {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
 @media screen and (max-width: 950px) {
   .headerNav {
     display: none;
@@ -185,6 +192,7 @@
   font-size: 1.25rem;
   line-height: 1.375rem;
   padding-top: 0.5rem;
+<<<<<<< HEAD
 }
 
 .header {
@@ -499,3 +507,6 @@
   -webkit-text-decoration: underline 0.1rem;
           text-decoration: underline 0.1rem;
 }
+=======
+}
+>>>>>>> 1-denis

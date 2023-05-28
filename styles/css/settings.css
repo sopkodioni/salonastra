@@ -21,6 +21,10 @@ a {
   color: inherit;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "Recoleta Regular";
   src: local("Recoleta Regular"), local("Recoleta-Regular"), url("../../fonts/Recoleta/Recoleta-Regular.woff2") format("woff2"), url("../../fonts/Recoleta/Recoleta-Regular.woff") format("woff"), url("../../fonts/Recoleta/Recoleta-Regular.ttf") format("truetype");
