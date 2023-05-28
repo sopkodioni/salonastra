@@ -4,6 +4,182 @@
 // =========================== ABOUT US page =========================== //
 @import './header';
 
-// about us section style....
+// section 'about caption' ------------
+.aboutCaption{
+    background-color: $secondaryColor;
+    text-align: center;
+    padding: 3.125rem 0;
+
+    // about caption title
+    &__title{
+        color: $leadColor;
+    }
+}
+
+// section about us ------------
+.aboutUs{
+    &__container{
+        max-width: 52.25rem;
+        text-align: center;
+    }
+
+    // Title
+    &__title{
+        font-family: 'Recoleta Light';
+        font-size: 1.25rem;
+        line-height: 1.37rem;
+        color: $raffiaColor;
+        margin-bottom: 0.81rem;
+    }
+
+    // Thesis
+    &__thesis{
+        // thesis text
+        .title__text{
+            margin-bottom: 1.5rem;
+        }
+
+        // thesis subtext
+        .title__subtext{
+            color: #CACACA;
+        }
+    }
+
+    &__main{
+        position: relative;
+        padding: 7.87rem 0;
+        overflow: hidden;
+    }
+
+    &__img{
+        position: absolute;
+
+        &--left{
+            top: 50%;
+            transform: translateY(-50%);
+            left: -4.81rem;
+            @media screen and (max-width:1536px) {
+                left: -8.81rem;
+            }
+
+            @media screen and (max-width: 1280px) {
+                left: -15.81rem;
+            }
+        }
+
+        &--right{
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            @media screen and (max-width:1536px) {
+                right: -6rem;
+            }
+
+            @media screen and (max-width: 1280px) {
+                right: -12.01rem;
+            }
+        }
+    }
+
+    .decorate-img{
+        display: inline-grid;
+        position: absolute;
+        
+        &--one{
+            grid-template-columns: 6px 6px 6px;
+            grid-template-rows: 6px 6px 6px;
+            top: 491px;
+            left: 419px;
+        }
+
+        &--two{
+            grid-template-columns: repeat(4, 6px);
+            grid-template-rows: repeat(4, 6px);
+            right: 363px;
+            top: 45px;
+            column-gap: 18px;
+            row-gap: 13px;
+        }
+        gap: 14px;
+        
+        div{
+            width: 6px;
+            height: 6px;
+            background-color: $raffiaColor;
+            border-radius: 50%;
+        }
+    }
+
+    &__blicks{
+        position: absolute;
+        top: 0;
+        pointer-events: none;
+    }
+}
+
+// About Us Footer ----
+.aboutUsFooter{
+    padding-top: 7.87rem;
+    padding-bottom: 5.55rem;
+    @media screen and (max-width: 1280px) {
+        padding-bottom: 3.5rem;
+    }
+
+    &__title{
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+        font-family: 'Recoleta Light';
+        margin-bottom: 2rem;
+    }
+
+    &__btns{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.18rem;
+    }
+
+    &__btn{
+        border-color: $raffiaColor;
+        @media screen and (max-width: 1280px) {
+            padding: 1.06rem 2.06rem;
+        }
+        &:hover{
+            background-color: $raffiaColor;
+            color: $blackColor;
+        }
+        &--active{
+            background-color: $raffiaColor;
+            color: $blackColor;
+        }
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list{
+        padding-left: 1rem;
+        li{
+            list-style-type: disc;
+        }
+    }
+}
+.aboutUsFooterContent{
+    &__left{
+        max-width: 730px;
+        color: $lightGrayColor;
+    }
+    
+    &__right{
+        color: $lightGrayColor;
+        span{
+            color: $whiteColor;
+        }
+    }
+}
+
+
 
 @import './footer';
