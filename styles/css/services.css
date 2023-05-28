@@ -427,6 +427,10 @@
   border-bottom: 0.0625rem solid rgb(236, 216, 189);
 }
 
+.itemFirst__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .itemFirst__title {
   font-family: "Recoleta Regular";
   font-weight: 400;
@@ -455,6 +459,10 @@
   line-height: 3.073125rem;
 }
 
+.itemSecond__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .itemSecond__title {
   font-family: "Recoleta Regular";
   font-weight: 400;
