@@ -417,3 +417,77 @@
   background-color: #212121;
   color: #fff;
 }
+.content__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 0.0625rem solid rgb(236, 216, 189);
+}
+
+.itemFirst__title {
+  font-family: "Recoleta Regular";
+  font-weight: 400;
+  font-size: 2.58rem;
+  line-height: 2.850625rem;
+  color: rgb(236, 216, 189);
+}
+.itemFirst__body {
+  padding-left: 5.3125rem;
+  padding-top: 5.0625rem;
+  padding-bottom: 5.1875rem;
+}
+.itemFirst__text {
+  padding-top: 0.5rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 2.634375rem;
+  padding-right: 5.25rem;
+}
+.itemFirst__price {
+  padding-top: 1.9375rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2.1875rem;
+  line-height: 3.073125rem;
+}
+
+.itemSecond__title {
+  font-family: "Recoleta Regular";
+  font-weight: 400;
+  font-size: 2.58rem;
+  line-height: 2.850625rem;
+  color: rgb(236, 216, 189);
+}
+.itemSecond__body {
+  padding-top: 5.4375rem;
+  padding-left: 8.5625rem;
+  padding-bottom: 5.4375rem;
+}
+.itemSecond__text {
+  padding-top: 1.75rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 2.634375rem;
+  padding-right: 4.3125rem;
+}
+.itemSecond__price {
+  padding-top: 1.9375rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2.1875rem;
+  line-height: 3.073125rem;
+}
+
+.contentPrice__first {
+  text-decoration: none;
+  color: rgb(236, 216, 189);
+}
+.contentPrice__second {
+  -webkit-text-decoration: underline 0.1rem;
+          text-decoration: underline 0.1rem;
+}
